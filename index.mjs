@@ -2,7 +2,7 @@ import express from 'express';
 import routes from './lib/routes/index.mjs';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
-import Helper from './dist/Helper.mjs'
+import Helper from './lib/Helper.mjs'
  
 const app = express();
  
